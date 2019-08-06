@@ -4,6 +4,6 @@ Mobillium firmasi gelistirici projesi.
 
 https://docs.google.com/document/d/1n0W8ab7QUF56zny4rwdSpNAK3UZRJX86wvon6s3g3wg/edit
 <br>
-https://user-images.githubusercontent.com/33760141/62541049-a751b880-b861-11e9-84f4-2928443b5df8.gif
+![20190806_154539](https://user-images.githubusercontent.com/33760141/62541241-18916b80-b862-11e9-99c2-6212dc62d79b.gif)
 <br>
-https://user-images.githubusercontent.com/33760141/62541091-bc2e4c00-b861-11e9-8405-c284ab127872.gif
+![20190806_154248](https://user-images.githubusercontent.com/33760141/62541268-27781e00-b862-11e9-8a39-5f0410909986.gif)
