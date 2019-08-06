@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/relative_editor"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="10dp">
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/editor_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#212121"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Textview"/>
+                    <TextView
+                            android:id="@+id/editor_definiton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:maxLength="70"
+                            android:gravity="center_horizontal"
+                            android:textColor="#9E9E9E"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Textview"/>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="10dp">
+
+                        <androidx.cardview.widget.CardView android:layout_width="wrap_content"
+                                                           android:layout_height="wrap_content">
+                            <ImageView
+                                    android:id="@+id/editorimage"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_launcher_background"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp">
+                            <ImageView
+                                    android:id="@+id/editorimage1"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_launcher_background"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView android:layout_width="wrap_content"
+                                                           android:layout_height="wrap_content">
+                            <ImageView
+                                    android:id="@+id/editorimage2"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_launcher_background"/>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <Button
+                            android:id="@+id/buton_vitrin"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="#9E9E9E"
+                            android:background="@drawable/button_border"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Vitrine Git"
+                            style="@style/Widget.AppCompat.Button.Borderless"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageview_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
